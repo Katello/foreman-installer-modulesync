@@ -55,6 +55,8 @@ Gemfile:
       groups:
       - 'test'
   - gem: metadata-json-lint
+  - gem: rspec-puppet-facts
+    version: '>= 1.7'
 .puppet-lint.rc:
   default_disabled_lint_checks:
   - '140chars'
