@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone https://github.com/theforeman/foreman-installer-modulesync.git
-rsync -a --progress --exclude=moduleroot/.travis.yml --exclude=moduleroot/CONTRIBUTING.md --exclude=managed_modules.yml --exclude modulesync.yml foreman-installer-modulesync/* .
+rsync -a --progress --exclude=moduleroot/.travis.yml --exclude=moduleroot/spec/spec_helper.rb --exclude=moduleroot/CONTRIBUTING.md --exclude=managed_modules.yml --exclude modulesync.yml foreman-installer-modulesync/* .
 
 rm -rf foreman-installer-modulesync
 
