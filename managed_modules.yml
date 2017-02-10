@@ -4,7 +4,7 @@
 - puppet-katello_devel
 - puppet-candlepin
 - puppet-pulp
-- puppet-capsule
+- puppet-foreman_proxy_content
 - puppet-certs
 - puppet-crane
 - puppet-service_wait
