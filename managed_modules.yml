@@ -6,6 +6,5 @@
 - puppet-pulp
 - puppet-foreman_proxy_content
 - puppet-certs
-- puppet-crane
 - puppet-service_wait
 - puppet-common
