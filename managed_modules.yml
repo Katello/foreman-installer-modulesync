@@ -1,10 +1,10 @@
 ---
-- puppet-qpid
+- puppet-candlepin
+- puppet-certs
+- puppet-common
+- puppet-foreman_proxy_content
 - puppet-katello
 - puppet-katello_devel
-- puppet-candlepin
 - puppet-pulp
-- puppet-foreman_proxy_content
-- puppet-certs
+- puppet-qpid
 - puppet-service_wait
-- puppet-common
