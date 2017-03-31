@@ -57,6 +57,7 @@ Gemfile:
 .puppet-lint.rc:
   default_disabled_lint_checks:
   - '140chars'
+  - 'arrow_on_right_operand_line'
   - 'class_inherits_from_params_class'
 .travis.yml:
   beaker_sets: []
