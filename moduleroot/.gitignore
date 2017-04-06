@@ -34,9 +34,14 @@ spec/fixtures/
 ## Puppet module
 pkg/
 coverage/
+.yardoc/
 
 ## InteliJ / RubyMine
 .idea
+
+## Beaker
+.vagrant/
+log/
 <% if ! @configs['paths'].nil? -%>
 
 # Module-specific paths
