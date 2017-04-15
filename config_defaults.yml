@@ -48,6 +48,10 @@ Gemfile:
     options:
       groups:
         - 'system_tests'
+  - gem: 'beaker-module_install_helper'
+    options:
+      groups:
+        - 'system_tests'
   - gem: 'beaker-puppet_install_helper'
     options:
       groups:
@@ -64,6 +68,6 @@ Gemfile:
 spec/spec_helper.rb:
   requires: []
 spec/spec_helper_acceptance.rb:
-  modules: ['puppetlabs-stdlib']
+  modules: []
 Rakefile:
   param_docs_pattern: []
